@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatorial</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <fieldset class="box">
+    <h1 class="titulo">Operação fatorial</h1>
+    </fieldset>
+
+    <div class="paragrafo1">
+        <fieldset class="box">
+            <span>
+                "O que é fatorial?
+                O fatorial é uma operação muito importante para o estudo e desenvolvimento da análise combinatória. <br>
+                Na matemática o número seguido do símbolo de exclamação (!) 
+                é conhecido como fatorial, por exemplo, x! (x fatorial). <br>
+                Conhecemos como fatorial de um número natural a multiplicação desse número por seus antecessores com exceção do zero, ou seja: <br>
+                n! = n · (n-1) · (n-2) … 3 · 2 · 1"<br>
+            </span>
+        </fieldset>    
+    </div>
+    <fieldset class="box">
+    <div class="paragrafo2">
+            <p class="paragrafo2">Digite o numero para fazer a operação</p> 
+                <fieldset class="boxInputOut">
+                    <input type="number", class="input", id="numero">
+                    <button onclick="fatorial()", class="button", id="numeroInput">calcular</button>
+                </fieldset>
+            <p class="paragrafo2"> O resultado é:<span id="Racumulador"></span></p>  
+    </div>
+    </fieldset>
+</body>
+</html>
